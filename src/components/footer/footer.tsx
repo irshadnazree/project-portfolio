@@ -10,7 +10,7 @@ export default component$((props: FooterProps) => {
     <footer>
       <button onClick$={() => props.changeMode(!props.isDarkMode)}>
         {props.isDarkMode ? 'Dark' : 'Light'}
-      </button>{' '}
+      </button>
     </footer>
   );
 });
